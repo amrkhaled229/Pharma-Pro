@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+}
+section .circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #b3eccd;
+    clip-path: circle(70% at right -20%);
+}
+.logo{
+    width: 100px;
+    position: relative;
+}
+.bag{
+    width: 30px;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .nav{
+    position: relative;
+    display: flex;
+}
+header .nav li{
+
+list-style: none;
+
+}
+header .nav li a{
+    display: inline-block;
+    color: #000000;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+
+}
+.content{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textbox{
+    position: relative;
+    max-width: 600px;
+    margin-right: 20px;
+
+}
+.content .textbox h2{
+    color: #000000;
+    font-size: 3em;
+    margin-bottom: 10px;
+    line-height: 1.4em;
+    font-weight: 700;
+}
+.content .textbox p{
+    color: #000000;
+}
+.content .textbox a{
+
+display: inline-block;
+margin-top: 20px;
+padding: 8px 20px;
+background: #b3eccd;
+color: #000000;
+border-radius: 40px;
+font-weight: 500;
+letter-spacing: 1px;
+text-decoration: none;
+}
+.sci
+{
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sci li
+{
+    list-style: none;
+}
+.sci li a{
+    display: inline-block;
+    margin-left: 15px;
+    background: #222;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+}
+.sci li a:hover{
+    background: #b3eccd;
+    transform: translateY(-10px);
+}
+.sci li a img{
+    filter: invert(1);
+    transform: scale(0.5);
+}
+
+/****slider*****/
+.swiper{
+    width: 100% ;
+    padding-top:50px ;
+    padding-bottom: 50px;
+}
+.swiper-slide{
+    background-position: center;
+    background-size: cover;
+    width: 180px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.content .imgBox
+{
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 90px;
+}
+.content .imgBox img 
+{
+    max-width: 400px;
+}
+
+

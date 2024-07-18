@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <script type="text/javascript" src="home.js"></script>
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    </head>
+ <body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="logo.png" class="logo"></a>
+            <div class="toggle" ></div>
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Products</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="login_form.php">Sign Up/Sign in</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="#"><img src="bag.png" class="bag"></a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt vero dolor,
+                     ut dignissimos voluptas necessitatibus. Ratione numquam, qui quis nisi aperiam corrupti 
+                     consequuntur, facilis ipsum ut excepturi iste, enim earum.</p>
+                     <a href="index.html">Learn More</a>
+            </div>
+          <div class="imgBox">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="Axe-Spray.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="Panadol-Extra.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="med.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="treadmill.png" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+          
+            </div>
+          </div>
+      </div>
+        <ul class="sci">
+            <li><a href="#"><img src="facebook.png"></a></li>
+            <li><a href="#"><img src="twitter.png"></a></li>
+            <li><a href="#"><img src="instagram.png"></a></li>
+
+        </ul>
+    </section>
+    
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+
+    </script>
+
+ </body>
+</html>
